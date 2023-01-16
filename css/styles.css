@@ -1,0 +1,32 @@
+/* backgroundcolor secondary  #F5F4FA 
+backgroundcolor footer  #2F303A
+backgroundcolor primary 
+*/
+:root {
+  --mainText-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --button-text: #ffffff;
+}
+
+body {
+  background-color: #fff;
+  color: var(--mainText-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav .link .current {
+  color: var(--accent-color);
+}
+
+.logo {
+  color: var(--title-color);
+}
+
+.logo-part {
+    color: var(--accent-color);
+}
+
