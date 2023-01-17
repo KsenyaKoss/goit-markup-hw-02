@@ -1,32 +1,118 @@
-/* backgroundcolor secondary  #F5F4FA 
-backgroundcolor footer  #2F303A
-backgroundcolor primary 
-*/
 :root {
-  --mainText-color: #757575;
+  --primary-text-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
-  --button-text: #ffffff;
+  --button-text-color: #ffffff;
 }
 
 body {
   background-color: #fff;
-  color: var(--mainText-color);
+  color: var(--primary-text-color);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-.site-nav .link .current {
-  color: var(--accent-color);
-}
+/* Logo */
 
 .logo {
   color: var(--title-color);
 }
 
 .logo-part {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav-list .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav-list .link:hover,
+.auth-nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #212121;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--button-text-color);
+}
+
+/* Section */
+
+.section-title {
+  color: #212121;
+}
+
+.features .title {
+  color: #212121;
+}
+
+.team-list .title {
+  color: var(--title-color);
+}
+
+/* Footer */
+
+.footer .logo {
+  color: var(--button-text-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address-list .address {
+  color: var(--button-text-color);
+}
+
+.address-list .email,
+.address-list .phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* PORTFOLIO */
+
+.button.primary {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+
+.button.secondary {
+  color: var(--title-color);
+  background-color: #F5F4FA;
+  border-color: transparent
+}
+
+.projects .img-title {
+  color: var(--title-color);
+}
